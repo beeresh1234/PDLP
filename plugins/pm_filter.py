@@ -1378,7 +1378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton(' ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton(' ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton(' ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ ', callback_data="shortlink_info")
+                    InlineKeyboardButton('bot Owner', callback_data="https//t.me/hp_raj_271")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1647,7 +1647,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "shortlink_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/rajbharsaheb")
+                    InlineKeyboardButton("🤵ᴄᴏɴᴛᴀᴄᴛ", url="telegram.me/hp_raj_271")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
